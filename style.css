@@ -1,0 +1,147 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+
+body{
+font-size: 18px;
+margin-bottom:12px;
+font-family: 'Poppins', sans-serif;
+}
+
+h1{
+
+    font-size: 30px;
+    margin-bottom: 12px;
+
+}
+
+.Banner_Button{
+
+margin-top: 30px;
+padding: 5px;
+font-size: 15px;
+border-radius: 10px;
+
+}
+
+.Banner_Button:hover{
+
+    background-color: aqua;
+    color: brown;
+    border-radius: 8px;
+}
+
+.banner{
+background-image: url(image/bannar.jpg);
+height: 50vh;
+background-repeat: no-repeat;
+background-position: center;
+color: white;
+text-align:center;
+background-size:cover;
+
+}
+
+.banner-content{
+
+    padding-top: 110px;
+}
+
+.donation{
+
+    text-align: center;
+    margin-top: 5%;
+}
+
+.donate_amount{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+.amount{
+
+    background-color: rgb(63, 63, 126);
+    padding: 15px;
+    margin-right: 10px;
+    border-radius: 20px;
+    color: rgb(206, 34, 34);
+    cursor: pointer;
+}
+.active{
+
+    background-color: rgb(114, 17, 206);
+    color: darkblue;
+}
+#input_amount{
+
+    width: 40%;
+    border: none;
+    border-bottom: 1px rgb(189, 158, 158) solid;
+
+}
+
+.amount_button{
+
+    color: rgb(10, 10, 10);
+    background-color: rgb(245, 152, 118);
+    border-radius: 20px;
+    border: 2px rgb(92, 67, 67) solid;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+footer{
+
+    padding: 30px;
+    background-color: darkgrey;
+    text-align: center;
+}
+.site_header{
+display: flex;
+justify-content: center;
+
+}
+
+.donation_plan{
+text-align: center;
+margin-top: 5px;
+
+}
+
+.flex_container{
+
+    display: flex;
+    margin-right: 30px;
+    justify-content: center;
+    align-items: center; 
+    margin-bottom: 20px;
+    margin: 0px auto;
+
+}
+.plan{
+    border: 2px rgb(167, 84, 54) solid;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 15px;
+    background-color: azure;
+    height: 260px;
+}
+.gallery{
+
+    text-align: center;
+    margin-top: 5%;
+
+}
+.gallery_row{
+    display: flex;
+}
+
+.gallery_row img{
+    width: 23%;
+    padding: 5px;
+    margin: 5px;
+
+}
